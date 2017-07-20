@@ -40,7 +40,7 @@ Emoji::decode("Test1 Test2 \xf0\x9f\x92\xa1 Test3"); // decoding to Native
 
 ## Contributing
 
-We welcome contributions! If you would like to hack on Mobile wallet, please
+We welcome contributions! If you would like to hack on Emoji, please
 follow these steps:
 
 1. Fork this repository
