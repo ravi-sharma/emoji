@@ -11,7 +11,7 @@
 	],
 	"autoload": {
 		"psr-4": {
-			"Rvish\\Emoji": "src"
+			"Rvish\\Emoji\\": "src"
 		}
 	},
 	"minimum-stability": "dev",
