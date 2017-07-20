@@ -26,15 +26,14 @@ Once rvish Emoji is installed, you need to register the service provider. Open u
 
 ## Usage
 
+For encoding to Bytes (UTF-8)
 ```php
 Emoji::encode("Test1 Test2 💡 Test3"); // encoding to Bytes (UTF-8)
 ```
-
-Or your can use the shorter method by leaving off "character" and using camelCase:
+For decoding to Native
 ```php
 Emoji::decode("Test1 Test2 \xf0\x9f\x92\xa1 Test3"); // decoding to Native
 ```
-
 
 ## Contributing
 
