@@ -1,6 +1,6 @@
 # A simple PHP library for handling Emoji
 
-An emoji encoder/parser for Laravel 5. This will encode and decode html to unified and vice versa.
+An emoji encoder/parser for Laravel 5. This will encode and decode html to unified and vice versa. In order to handle emojies in database where you care about light weight things, performance and don't want to use blob data type.
 
 ## Installation
 
