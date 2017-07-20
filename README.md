@@ -22,7 +22,11 @@ Instead, you may of course manually update your require block and run `composer 
 }
 ```
 
-Once rvish Emoji is installed, you need to register the service provider. Open up `config/app.php` and add the `Rvish\Emoji\EmojiServiceProvider::class` to the `providers` and add the `'Emoji' => Rvish\Emoji\Facades\Emoji::class` to the aliases.
+Once rvish Emoji is installed, you need to register the service provider. 
+Open up `config/app.php` and <br>
+add the `Rvish\Emoji\EmojiServiceProvider::class` to the `providers` <br>
+and <br>
+add the `'Emoji' => Rvish\Emoji\Facades\Emoji::class` to the aliases.<br>
 
 ## Usage
 
