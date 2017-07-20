@@ -1,0 +1,21 @@
+{
+	"name": "rvish/emoji",
+	"description": "An Emoji encoder and decoder with browser for Laravel 5 (unified to HTML)",
+	"keywords": ["emoji", "encoder", "eecode", "browser", "unified", "html", "parser", "rvish"],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Ravi Sharma",
+			"email": "me@rvish.com"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"Rvish\\Emoji": "src"
+		}
+	},
+	"minimum-stability": "dev",
+	"require": {
+		"illuminate/support": "~5"
+	}
+}
