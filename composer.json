@@ -17,10 +17,5 @@
 	"minimum-stability": "dev",
 	"require": {
 		"illuminate/support": "~5"
-	},
-	"extra": {
-		"branch-alias": {
-			"master": "1.0"
-		}
 	}
 }
