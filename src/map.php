@@ -2061,7 +2061,6 @@
 			  "\xf0\x9f\x9a\xbe"                                                                                             => "\xee\x92\xa5",
 			  "\xf0\x9f\x9a\xbf"                                                                                             => "",
 			  "\xf0\x9f\x9b\x80"                                                                                             => "\xee\x97\x98",
-
 			  "#\xe2\x83\xa3"                                                                                                => "\xee\xae\x84",
 			  "*\xe2\x83\xa3"                                                                                                => "",
 			  "0\xe2\x83\xa3"                                                                                                => "\xee\x96\xac",
