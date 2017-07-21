@@ -22,7 +22,10 @@ Instead, you may of course manually update your require block and run `composer 
 }
 ```
 
-Once rvish Emoji is installed, you need to register the service provider. Open up `config/app.php` and add the `Rvish\Emoji\EmojiServiceProvider::class` to the `providers` and add the `'Emoji' => Rvish\Emoji\Facades\Emoji::class` to the aliases.
+Once rvish Emoji is installed, you need to register the service provider. 
+Open up `config/app.php` and <br>
+1. add the `Rvish\Emoji\EmojiServiceProvider::class` to the `providers` <br>
+2. add the `'Emoji' => Rvish\Emoji\Facades\Emoji::class` to the `aliases`.<br>
 
 ## Usage
 
@@ -37,7 +40,7 @@ Emoji::decode("Test1 Test2 \xf0\x9f\x92\xa1 Test3"); // decoding to Native
 
 ## Contributing
 
-We welcome contributions! If you would like to hack on Mobile wallet, please
+We welcome contributions! If you would like to hack on Emoji, please
 follow these steps:
 
 1. Fork this repository
