@@ -1,3 +1,7 @@
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/rvish/emoji.svg)](https://packagist.org/packages/rvish/emoji)
+![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg)
+[![Build Status](https://travis-ci.org/ravi-sharma/emoji.svg?branch=master)](https://travis-ci.org/ravi-sharma/emoji)
+
 # A simple PHP library for handling Emoji
 
 An emoji encoder/parser for Laravel 5. This will encode and decode html to unified and vice versa. In order to handle emojies in database where you care about light weight things, performance and don't want to use blob data type.
@@ -22,7 +26,7 @@ Instead, you may of course manually update your require block and run `composer 
 }
 ```
 
-Once rvish Emoji is installed, you need to register the service provider. 
+Once rvish Emoji is installed, you need to register the service provider.
 Open up `config/app.php` and <br>
 1. add the `Rvish\Emoji\EmojiServiceProvider::class` to the `providers` <br>
 2. add the `'Emoji' => Rvish\Emoji\Facades\Emoji::class` to the `aliases`.<br>
